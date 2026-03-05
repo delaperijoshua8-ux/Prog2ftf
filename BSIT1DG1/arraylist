@@ -1,0 +1,66 @@
+keyword "final"=they are constant= All capital ex: public static final double POSITIVE_INFINITY; 
+
+Modular
+- Getters and Setters
+    *Class 
+        - Data 
+        - Methods
+            -Setters 
+            - Getters
+example:
+
+    Student
+-------------------
+Id          Age
+Name        Course
+--------------------
+Setters     Getters
+-SetID()    getID()
+-SetName()  getname()
+--------------------
+
+
+ArrayList = is a built in class
+    - is a java class which can be found in the java,util package
+    - java arrays are fixed in size
+    - ArrayList is a resizan;e array(dynamicarray)in which elements can be added and removed from the list
+
+    To create an ArrayList, arrayList<Type>arraylisname = new Arrayist <Type>();
+    - Arraylist cam ne ...
+    - add elements to ArrayList use : add()
+    - Add Elements to an ArrayList at the specified position 
+        - ex: Age.add(1{index},90)
+    - Add all Elements: 
+        -ex: Name2.addAll(Name);
+    - Access ArayList Elements
+        -get() method
+    -Change Arraylist elements
+        - to replace te element at the specified position in this list with the specified element, use the set(inex, elements) method.
+        - ex: set(0,75)
+    -rmove an element
+        -remove(value)
+            - ex: remove(Integer.valueOf(80)
+              value not index
+            - ex remove(index)  
+            - ex: remove("Amy") {if string}
+    -remove all element
+        -removAll();
+        -clear()
+---------------------------------
+                    Data
+
+
+---------------------------------
+                    Method
+    add(),get()....
+
+---------------------------------
+
+ArrayList vs Array
+    - Array
+        - Can't change the size
+        - Fixed
+        -Static
+    -ArrayList
+        - Dynamic
+        - can be changed
