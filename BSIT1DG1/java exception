@@ -1,0 +1,70 @@
+Exception - errors you can handle
+          - events that disrupt the normal flow of a program during runtime
+    
+
+Example Scenario
+    -Divides two numbers = if users enter 0 as divisor, the program will produce an error called ArithmeticExceptio: / by Zero - end of program
+
+
+Exception Handling
+    -process of managing runtme errors
+
+keywords:
+    -try=contains code that may generate an exception
+    -catch=Handles the exception    
+    -finally(similar to default in switch)=executes whether exception occurs or not
+    -throw=used to manually throw an exception
+    -throws=declared exceptions that a method may produce
+
+Types of error
+
+-Syntax Error
+-Runtime Error
+-Logical Error
+exception is in Runtim Error
+
+Exception Hierarchy
+
+        object
+           |
+           
+
+
+
+Checked vs unchecked Exception
+
+Checked Exceptions
+    -These are checked by te compiler
+  Examples:
+    -IOException --(IO=Input/output)
+    -SQLException
+    -FileNotFoundException
+  Example:
+    -FileReader file = new fileReader("data.txt");
+     
+
+
+Unchecked Exception
+these occur during runtime
+
+
+
+*Try-catch Block
+int a=10;
+int b=0;
+Syntax
+try{
+int result = a/b;
+System.out.println(result);
+}
+catch (ArithmeticException e) {
+
+*Throw
+
+
+
+*Throws - sa method nilalagay
+ - this keyword declareds that a method may produce an exception
+
+
+
